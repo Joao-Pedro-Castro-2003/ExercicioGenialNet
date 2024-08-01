@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenialNet", "GenialNet\GenialNet.csproj", "{03CEA0DA-8679-4955-A152-550B2E96D424}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03CEA0DA-8679-4955-A152-550B2E96D424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CEA0DA-8679-4955-A152-550B2E96D424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CEA0DA-8679-4955-A152-550B2E96D424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CEA0DA-8679-4955-A152-550B2E96D424}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95E92462-BD08-4588-9D5E-3DB7E830CD4F}
+	EndGlobalSection
+EndGlobal

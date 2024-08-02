@@ -1,6 +1,6 @@
 ﻿namespace GenialNet
 {
-    partial class Form1
+    partial class CadastroProduto
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -35,21 +35,10 @@
             this.textMarcaProduto = new System.Windows.Forms.TextBox();
             this.textMedidaProduto = new System.Windows.Forms.TextBox();
             this.TituloProduto = new System.Windows.Forms.Label();
-            this.TituloFornecedor = new System.Windows.Forms.Label();
-            this.NomeFornecedor = new System.Windows.Forms.Label();
-            this.CnpjFornecedor = new System.Windows.Forms.Label();
-            this.EnderecoFornecedor = new System.Windows.Forms.Label();
-            this.TelefoneFornecedor = new System.Windows.Forms.Label();
-            this.ProdutosFornecedor = new System.Windows.Forms.Label();
-            this.textNomeFornecedor = new System.Windows.Forms.TextBox();
-            this.textEndereco = new System.Windows.Forms.TextBox();
-            this.textTelefone = new System.Windows.Forms.TextBox();
-            this.textProdutos = new System.Windows.Forms.TextBox();
             this.Gravar = new System.Windows.Forms.Button();
             this.Excluir = new System.Windows.Forms.Button();
             this.Limpar = new System.Windows.Forms.Button();
             this.Erro_Msg = new System.Windows.Forms.Label();
-            this.textCnpjMask = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // NomeProduto
@@ -107,98 +96,11 @@
             // 
             this.TituloProduto.AutoSize = true;
             this.TituloProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TituloProduto.Location = new System.Drawing.Point(67, 15);
+            this.TituloProduto.Location = new System.Drawing.Point(67, 13);
             this.TituloProduto.Name = "TituloProduto";
             this.TituloProduto.Size = new System.Drawing.Size(109, 31);
             this.TituloProduto.TabIndex = 7;
             this.TituloProduto.Text = "Produto";
-            // 
-            // TituloFornecedor
-            // 
-            this.TituloFornecedor.AutoSize = true;
-            this.TituloFornecedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TituloFornecedor.Location = new System.Drawing.Point(380, 15);
-            this.TituloFornecedor.Name = "TituloFornecedor";
-            this.TituloFornecedor.Size = new System.Drawing.Size(153, 31);
-            this.TituloFornecedor.TabIndex = 8;
-            this.TituloFornecedor.Text = "Fornecedor";
-            // 
-            // NomeFornecedor
-            // 
-            this.NomeFornecedor.AutoSize = true;
-            this.NomeFornecedor.Location = new System.Drawing.Point(302, 72);
-            this.NomeFornecedor.Name = "NomeFornecedor";
-            this.NomeFornecedor.Size = new System.Drawing.Size(110, 13);
-            this.NomeFornecedor.TabIndex = 9;
-            this.NomeFornecedor.Text = "Nome do Fornecedor:";
-            // 
-            // CnpjFornecedor
-            // 
-            this.CnpjFornecedor.AutoSize = true;
-            this.CnpjFornecedor.Location = new System.Drawing.Point(302, 96);
-            this.CnpjFornecedor.Name = "CnpjFornecedor";
-            this.CnpjFornecedor.Size = new System.Drawing.Size(37, 13);
-            this.CnpjFornecedor.TabIndex = 10;
-            this.CnpjFornecedor.Text = "CNPJ:";
-            // 
-            // EnderecoFornecedor
-            // 
-            this.EnderecoFornecedor.AutoSize = true;
-            this.EnderecoFornecedor.Location = new System.Drawing.Point(302, 123);
-            this.EnderecoFornecedor.Name = "EnderecoFornecedor";
-            this.EnderecoFornecedor.Size = new System.Drawing.Size(56, 13);
-            this.EnderecoFornecedor.TabIndex = 11;
-            this.EnderecoFornecedor.Text = "Endereço:";
-            // 
-            // TelefoneFornecedor
-            // 
-            this.TelefoneFornecedor.AutoSize = true;
-            this.TelefoneFornecedor.Location = new System.Drawing.Point(302, 150);
-            this.TelefoneFornecedor.Name = "TelefoneFornecedor";
-            this.TelefoneFornecedor.Size = new System.Drawing.Size(52, 13);
-            this.TelefoneFornecedor.TabIndex = 12;
-            this.TelefoneFornecedor.Text = "Telefone:";
-            // 
-            // ProdutosFornecedor
-            // 
-            this.ProdutosFornecedor.AutoSize = true;
-            this.ProdutosFornecedor.Location = new System.Drawing.Point(302, 177);
-            this.ProdutosFornecedor.Name = "ProdutosFornecedor";
-            this.ProdutosFornecedor.Size = new System.Drawing.Size(52, 13);
-            this.ProdutosFornecedor.TabIndex = 13;
-            this.ProdutosFornecedor.Text = "Produtos:";
-            // 
-            // textNomeFornecedor
-            // 
-            this.textNomeFornecedor.Location = new System.Drawing.Point(422, 69);
-            this.textNomeFornecedor.Name = "textNomeFornecedor";
-            this.textNomeFornecedor.Size = new System.Drawing.Size(152, 20);
-            this.textNomeFornecedor.TabIndex = 14;
-            this.textNomeFornecedor.TextChanged += new System.EventHandler(this.textNomeFornecedor_TextChanged);
-            // 
-            // textEndereco
-            // 
-            this.textEndereco.Location = new System.Drawing.Point(422, 123);
-            this.textEndereco.Name = "textEndereco";
-            this.textEndereco.Size = new System.Drawing.Size(152, 20);
-            this.textEndereco.TabIndex = 16;
-            this.textEndereco.TextChanged += new System.EventHandler(this.textEndereco_TextChanged);
-            // 
-            // textTelefone
-            // 
-            this.textTelefone.Location = new System.Drawing.Point(422, 150);
-            this.textTelefone.Name = "textTelefone";
-            this.textTelefone.Size = new System.Drawing.Size(152, 20);
-            this.textTelefone.TabIndex = 17;
-            this.textTelefone.TextChanged += new System.EventHandler(this.textTelefone_TextChanged);
-            // 
-            // textProdutos
-            // 
-            this.textProdutos.Location = new System.Drawing.Point(422, 177);
-            this.textProdutos.Name = "textProdutos";
-            this.textProdutos.Size = new System.Drawing.Size(152, 20);
-            this.textProdutos.TabIndex = 18;
-            this.textProdutos.TextChanged += new System.EventHandler(this.textProdutos_TextChanged);
             // 
             // Gravar
             // 
@@ -242,34 +144,15 @@
             this.Erro_Msg.Text = "Msg Erro";
             this.Erro_Msg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textCnpjMask
-            // 
-            this.textCnpjMask.Location = new System.Drawing.Point(422, 96);
-            this.textCnpjMask.Name = "textCnpjMask";
-            this.textCnpjMask.Size = new System.Drawing.Size(152, 20);
-            this.textCnpjMask.TabIndex = 23;
-            this.textCnpjMask.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.textCnpjMask_MaskInputRejected);
-            // 
-            // Form1
+            // CadastroProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(629, 466);
-            this.Controls.Add(this.textCnpjMask);
             this.Controls.Add(this.Erro_Msg);
             this.Controls.Add(this.Limpar);
             this.Controls.Add(this.Excluir);
             this.Controls.Add(this.Gravar);
-            this.Controls.Add(this.textProdutos);
-            this.Controls.Add(this.textTelefone);
-            this.Controls.Add(this.textEndereco);
-            this.Controls.Add(this.textNomeFornecedor);
-            this.Controls.Add(this.ProdutosFornecedor);
-            this.Controls.Add(this.TelefoneFornecedor);
-            this.Controls.Add(this.EnderecoFornecedor);
-            this.Controls.Add(this.CnpjFornecedor);
-            this.Controls.Add(this.NomeFornecedor);
-            this.Controls.Add(this.TituloFornecedor);
             this.Controls.Add(this.TituloProduto);
             this.Controls.Add(this.textMedidaProduto);
             this.Controls.Add(this.textMarcaProduto);
@@ -277,10 +160,10 @@
             this.Controls.Add(this.MarcaProduto);
             this.Controls.Add(this.textNomeProduto);
             this.Controls.Add(this.NomeProduto);
-            this.Name = "Form1";
+            this.Name = "CadastroProduto";
             this.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.CadastroProduto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,21 +177,10 @@
         private System.Windows.Forms.TextBox textMarcaProduto;
         private System.Windows.Forms.TextBox textMedidaProduto;
         private System.Windows.Forms.Label TituloProduto;
-        private System.Windows.Forms.Label TituloFornecedor;
-        private System.Windows.Forms.Label NomeFornecedor;
-        private System.Windows.Forms.Label CnpjFornecedor;
-        private System.Windows.Forms.Label EnderecoFornecedor;
-        private System.Windows.Forms.Label TelefoneFornecedor;
-        private System.Windows.Forms.Label ProdutosFornecedor;
-        private System.Windows.Forms.TextBox textNomeFornecedor;
-        private System.Windows.Forms.TextBox textEndereco;
-        private System.Windows.Forms.TextBox textTelefone;
-        private System.Windows.Forms.TextBox textProdutos;
         private System.Windows.Forms.Button Gravar;
         private System.Windows.Forms.Button Excluir;
         private System.Windows.Forms.Button Limpar;
         private System.Windows.Forms.Label Erro_Msg;
-        private System.Windows.Forms.MaskedTextBox textCnpjMask;
     }
 }
 

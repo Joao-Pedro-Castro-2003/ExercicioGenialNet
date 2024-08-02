@@ -54,10 +54,11 @@ C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug
 C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.ValueTuple.xml
 C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.csproj.AssemblyReference.cache
 C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.csproj.SuggestedBindingRedirects.cache
-C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.Form1.resources
 C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.Properties.Resources.resources
 C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.csproj.GenerateResource.cache
 C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.csproj.CoreCompileInputs.cache
 C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.csproj.CopyComplete
 C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.exe
 C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.pdb
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.CadastroFornecedor.resources
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.CadastroProduto.resources

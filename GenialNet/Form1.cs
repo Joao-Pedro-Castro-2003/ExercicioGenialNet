@@ -91,6 +91,10 @@ namespace GenialNet
                 {
                     throw new Exception("CNPJ do Fornecedor é um campo Obrigatório");
                 }
+                else
+                {
+
+                }
          
                 if (string.IsNullOrEmpty(textEndereco.Text))
                 {

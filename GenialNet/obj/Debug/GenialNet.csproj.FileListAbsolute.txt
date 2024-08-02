@@ -29,3 +29,35 @@ C:\Users\Joao Pedro\Documents\TesteAvaliacao\TesteGenialNet\GenialNet\GenialNet\
 C:\Users\Joao Pedro\Documents\TesteAvaliacao\TesteGenialNet\GenialNet\GenialNet\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Joao Pedro\Documents\TesteAvaliacao\TesteGenialNet\GenialNet\GenialNet\bin\Debug\System.ValueTuple.xml
 C:\Users\Joao Pedro\Documents\TesteAvaliacao\TesteGenialNet\GenialNet\GenialNet\obj\Debug\GenialNet.csproj.Up2Date
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\GenialNet.exe.config
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\GenialNet.exe
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\GenialNet.pdb
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\RestSharp.dll
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Buffers.dll
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Memory.dll
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Text.Json.dll
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.ValueTuple.dll
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\RestSharp.xml
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Buffers.xml
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Memory.xml
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Text.Json.xml
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\bin\Debug\System.ValueTuple.xml
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.csproj.AssemblyReference.cache
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.Form1.resources
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.Properties.Resources.resources
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.csproj.GenerateResource.cache
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.csproj.CopyComplete
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.exe
+C:\Users\Pichau\Documents\TesteAvaliativo\ExercicioGenialNet\GenialNet\obj\Debug\GenialNet.pdb

@@ -234,7 +234,7 @@
             this.Erro_Msg.AutoSize = true;
             this.Erro_Msg.Font = new System.Drawing.Font("Franklin Gothic Medium", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Erro_Msg.ForeColor = System.Drawing.Color.Red;
-            this.Erro_Msg.Location = new System.Drawing.Point(113, 338);
+            this.Erro_Msg.Location = new System.Drawing.Point(67, 348);
             this.Erro_Msg.Name = "Erro_Msg";
             this.Erro_Msg.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Erro_Msg.Size = new System.Drawing.Size(124, 34);

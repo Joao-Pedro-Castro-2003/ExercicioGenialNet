@@ -84,15 +84,39 @@
     <Compile Include="CadastroFornecedor.Designer.cs">
       <DependentUpon>CadastroFornecedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="ComboBox\ComboBoxItem.cs" />
+    <Compile Include="DataBaseGenialDataSet.cs">
+      <DependentUpon>DataBaseGenialDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataBaseGenialDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataBaseGenialDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DbConnection\DatabaseConfig.cs" />
     <Compile Include="Entities\Endereco.cs" />
     <Compile Include="Entities\Fornecedor.cs" />
     <Compile Include="Entities\Produto.cs" />
-    <Compile Include="Enums\UnidadeMedida.cs" />
     <Compile Include="CadastroProduto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CadastroProduto.Designer.cs">
       <DependentUpon>CadastroProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exceptions\Consistencias.cs" />
+    <Compile Include="PesquisaFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PesquisaFornecedor.Designer.cs">
+      <DependentUpon>PesquisaFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProdutosPesq.cs">
+      <DependentUpon>ProdutosPesq.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProdutosPesq.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProdutosPesq.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -101,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CadastroProduto.resx">
       <DependentUpon>CadastroProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PesquisaFornecedor.resx">
+      <DependentUpon>PesquisaFornecedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,7 +139,29 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="ClassDiagram1.cd" />
+    <None Include="DataBaseGenialDataSet.xsc">
+      <DependentUpon>DataBaseGenialDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataBaseGenialDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataBaseGenialDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataBaseGenialDataSet.xss">
+      <DependentUpon>DataBaseGenialDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
+    <None Include="ProdutosPesq.xsc">
+      <DependentUpon>ProdutosPesq.xsd</DependentUpon>
+    </None>
+    <None Include="ProdutosPesq.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProdutosPesq.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProdutosPesq.xss">
+      <DependentUpon>ProdutosPesq.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

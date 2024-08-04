@@ -1,0 +1,2 @@
+C:\Databases\DataBaseGenial.mdf
+C:\Databases\DataBaseGenial_log

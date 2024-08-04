@@ -28,7 +28,6 @@ namespace GenialNet
         {
             InitializeComponent();
         }
-
         private void CadastroFornecedor_Load(object sender, EventArgs e)
         {
             textCnpjMask.Mask = "00,000,000/0000-00";

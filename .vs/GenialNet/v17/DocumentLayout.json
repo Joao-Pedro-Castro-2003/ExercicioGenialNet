@@ -3,19 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Joao Pedro\\Documents\\TesteAvaliacao\\TesteGenialNet\\ExercicioGenialNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03CEA0DA-8679-4955-A152-550B2E96D424}|GenialNet\\GenialNet.csproj|c:\\users\\joao pedro\\documents\\testeavaliacao\\testegenialnet\\exerciciogenialnet\\genialnet\\dbconnection\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03CEA0DA-8679-4955-A152-550B2E96D424}|GenialNet\\GenialNet.csproj|solutionrelative:genialnet\\dbconnection\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03CEA0DA-8679-4955-A152-550B2E96D424}|GenialNet\\GenialNet.csproj|c:\\users\\joao pedro\\documents\\testeavaliacao\\testegenialnet\\exerciciogenialnet\\genialnet\\cadastrofornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03CEA0DA-8679-4955-A152-550B2E96D424}|GenialNet\\GenialNet.csproj|solutionrelative:genialnet\\cadastrofornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03CEA0DA-8679-4955-A152-550B2E96D424}|GenialNet\\GenialNet.csproj|c:\\users\\joao pedro\\documents\\testeavaliacao\\testegenialnet\\exerciciogenialnet\\genialnet\\pesquisafornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03CEA0DA-8679-4955-A152-550B2E96D424}|GenialNet\\GenialNet.csproj|C:\\Users\\Joao Pedro\\Documents\\TesteAvaliacao\\TesteGenialNet\\ExercicioGenialNet\\genialnet\\pesquisafornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03CEA0DA-8679-4955-A152-550B2E96D424}|GenialNet\\GenialNet.csproj|solutionrelative:genialnet\\pesquisafornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03CEA0DA-8679-4955-A152-550B2E96D424}|GenialNet\\GenialNet.csproj|c:\\users\\joao pedro\\documents\\testeavaliacao\\testegenialnet\\exerciciogenialnet\\genialnet\\cadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03CEA0DA-8679-4955-A152-550B2E96D424}|GenialNet\\GenialNet.csproj|C:\\Users\\Joao Pedro\\Documents\\TesteAvaliacao\\TesteGenialNet\\ExercicioGenialNet\\genialnet\\cadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03CEA0DA-8679-4955-A152-550B2E96D424}|GenialNet\\GenialNet.csproj|solutionrelative:genialnet\\cadastroproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,45 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DatabaseConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Joao Pedro\\Documents\\TesteAvaliacao\\TesteGenialNet\\ExercicioGenialNet\\GenialNet\\DbConnection\\DatabaseConfig.cs",
-              "RelativeDocumentMoniker": "GenialNet\\DbConnection\\DatabaseConfig.cs",
-              "ToolTip": "C:\\Users\\Joao Pedro\\Documents\\TesteAvaliacao\\TesteGenialNet\\ExercicioGenialNet\\GenialNet\\DbConnection\\DatabaseConfig.cs",
-              "RelativeToolTip": "GenialNet\\DbConnection\\DatabaseConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:27:26.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CadastroFornecedor.cs",
               "DocumentMoniker": "C:\\Users\\Joao Pedro\\Documents\\TesteAvaliacao\\TesteGenialNet\\ExercicioGenialNet\\GenialNet\\CadastroFornecedor.cs",
               "RelativeDocumentMoniker": "GenialNet\\CadastroFornecedor.cs",
               "ToolTip": "C:\\Users\\Joao Pedro\\Documents\\TesteAvaliacao\\TesteGenialNet\\ExercicioGenialNet\\GenialNet\\CadastroFornecedor.cs",
               "RelativeToolTip": "GenialNet\\CadastroFornecedor.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAswE4AAAAJAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwBkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T12:26:51.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PesquisaFornecedor.cs",
               "DocumentMoniker": "C:\\Users\\Joao Pedro\\Documents\\TesteAvaliacao\\TesteGenialNet\\ExercicioGenialNet\\GenialNet\\PesquisaFornecedor.cs",
               "RelativeDocumentMoniker": "GenialNet\\PesquisaFornecedor.cs",
               "ToolTip": "C:\\Users\\Joao Pedro\\Documents\\TesteAvaliacao\\TesteGenialNet\\ExercicioGenialNet\\GenialNet\\PesquisaFornecedor.cs",
               "RelativeToolTip": "GenialNet\\PesquisaFornecedor.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T03:09:54.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CadastroProduto.cs",
               "DocumentMoniker": "C:\\Users\\Joao Pedro\\Documents\\TesteAvaliacao\\TesteGenialNet\\ExercicioGenialNet\\GenialNet\\CadastroProduto.cs",
               "RelativeDocumentMoniker": "GenialNet\\CadastroProduto.cs",

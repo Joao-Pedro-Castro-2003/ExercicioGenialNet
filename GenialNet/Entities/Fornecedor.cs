@@ -20,8 +20,5 @@ namespace GenialNet.Entities
             Telefone = telefone;
             Endereco = endereco;
         }
-        public void ConsisteProdutoDuplicado()
-        {
-        }
     }
 }

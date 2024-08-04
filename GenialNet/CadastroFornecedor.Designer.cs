@@ -28,14 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TituloFormForn = new System.Windows.Forms.Label();
+            this.TituloCadForn = new System.Windows.Forms.Label();
             this.btnPesquisarForn = new System.Windows.Forms.Button();
             this.textCnpjMask = new System.Windows.Forms.MaskedTextBox();
-            this.textProdutos = new System.Windows.Forms.TextBox();
-            this.textTelefone = new System.Windows.Forms.TextBox();
-            this.textCep = new System.Windows.Forms.TextBox();
             this.textNomeFornecedor = new System.Windows.Forms.TextBox();
-            this.ProdutosFornecedor = new System.Windows.Forms.Label();
             this.TelefoneFornecedor = new System.Windows.Forms.Label();
             this.CepFornecedor = new System.Windows.Forms.Label();
             this.CnpjFornecedor = new System.Windows.Forms.Label();
@@ -44,72 +40,45 @@
             this.btnLimparForn = new System.Windows.Forms.Button();
             this.EnderecoFornecedor = new System.Windows.Forms.Label();
             this.textEndereco = new System.Windows.Forms.TextBox();
+            this.textTelefoneMask = new System.Windows.Forms.MaskedTextBox();
+            this.textCepMask = new System.Windows.Forms.MaskedTextBox();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // TituloFormForn
+            // TituloCadForn
             // 
-            this.TituloFormForn.AutoSize = true;
-            this.TituloFormForn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TituloFormForn.Location = new System.Drawing.Point(141, 9);
-            this.TituloFormForn.Name = "TituloFormForn";
-            this.TituloFormForn.Size = new System.Drawing.Size(308, 31);
-            this.TituloFormForn.TabIndex = 0;
-            this.TituloFormForn.Text = "Cadastro de Fornecedor";
+            this.TituloCadForn.AutoSize = true;
+            this.TituloCadForn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TituloCadForn.Location = new System.Drawing.Point(141, 9);
+            this.TituloCadForn.Name = "TituloCadForn";
+            this.TituloCadForn.Size = new System.Drawing.Size(308, 31);
+            this.TituloCadForn.TabIndex = 0;
+            this.TituloCadForn.Text = "Cadastro de Fornecedor";
             // 
             // btnPesquisarForn
             // 
             this.btnPesquisarForn.BackColor = System.Drawing.SystemColors.Control;
-            this.btnPesquisarForn.Location = new System.Drawing.Point(419, 349);
+            this.btnPesquisarForn.Location = new System.Drawing.Point(316, 264);
             this.btnPesquisarForn.Name = "btnPesquisarForn";
             this.btnPesquisarForn.Size = new System.Drawing.Size(117, 35);
             this.btnPesquisarForn.TabIndex = 1;
             this.btnPesquisarForn.Text = "Pesquisar";
             this.btnPesquisarForn.UseVisualStyleBackColor = false;
+            this.btnPesquisarForn.Click += new System.EventHandler(this.btnPesquisarForn_Click);
             // 
             // textCnpjMask
             // 
             this.textCnpjMask.Location = new System.Drawing.Point(147, 108);
             this.textCnpjMask.Name = "textCnpjMask";
-            this.textCnpjMask.Size = new System.Drawing.Size(294, 20);
+            this.textCnpjMask.Size = new System.Drawing.Size(414, 20);
             this.textCnpjMask.TabIndex = 34;
-            // 
-            // textProdutos
-            // 
-            this.textProdutos.Location = new System.Drawing.Point(147, 229);
-            this.textProdutos.Name = "textProdutos";
-            this.textProdutos.Size = new System.Drawing.Size(294, 20);
-            this.textProdutos.TabIndex = 33;
-            // 
-            // textTelefone
-            // 
-            this.textTelefone.Location = new System.Drawing.Point(147, 198);
-            this.textTelefone.Name = "textTelefone";
-            this.textTelefone.Size = new System.Drawing.Size(294, 20);
-            this.textTelefone.TabIndex = 32;
-            // 
-            // textCep
-            // 
-            this.textCep.Location = new System.Drawing.Point(147, 135);
-            this.textCep.Name = "textCep";
-            this.textCep.Size = new System.Drawing.Size(294, 20);
-            this.textCep.TabIndex = 31;
-            this.textCep.TextChanged += new System.EventHandler(this.textCep_TextChanged);
             // 
             // textNomeFornecedor
             // 
             this.textNomeFornecedor.Location = new System.Drawing.Point(147, 81);
             this.textNomeFornecedor.Name = "textNomeFornecedor";
-            this.textNomeFornecedor.Size = new System.Drawing.Size(294, 20);
+            this.textNomeFornecedor.Size = new System.Drawing.Size(414, 20);
             this.textNomeFornecedor.TabIndex = 30;
-            // 
-            // ProdutosFornecedor
-            // 
-            this.ProdutosFornecedor.AutoSize = true;
-            this.ProdutosFornecedor.Location = new System.Drawing.Point(27, 232);
-            this.ProdutosFornecedor.Name = "ProdutosFornecedor";
-            this.ProdutosFornecedor.Size = new System.Drawing.Size(52, 13);
-            this.ProdutosFornecedor.TabIndex = 29;
-            this.ProdutosFornecedor.Text = "Produtos:";
             // 
             // TelefoneFornecedor
             // 
@@ -149,7 +118,7 @@
             // 
             // btnGravarForn
             // 
-            this.btnGravarForn.Location = new System.Drawing.Point(30, 349);
+            this.btnGravarForn.Location = new System.Drawing.Point(30, 264);
             this.btnGravarForn.Name = "btnGravarForn";
             this.btnGravarForn.Size = new System.Drawing.Size(107, 35);
             this.btnGravarForn.TabIndex = 35;
@@ -159,7 +128,7 @@
             // 
             // btnLimparForn
             // 
-            this.btnLimparForn.Location = new System.Drawing.Point(221, 349);
+            this.btnLimparForn.Location = new System.Drawing.Point(169, 264);
             this.btnLimparForn.Name = "btnLimparForn";
             this.btnLimparForn.Size = new System.Drawing.Size(121, 35);
             this.btnLimparForn.TabIndex = 37;
@@ -180,30 +149,55 @@
             // 
             this.textEndereco.Location = new System.Drawing.Point(147, 166);
             this.textEndereco.Name = "textEndereco";
-            this.textEndereco.Size = new System.Drawing.Size(294, 20);
+            this.textEndereco.ReadOnly = true;
+            this.textEndereco.Size = new System.Drawing.Size(414, 20);
             this.textEndereco.TabIndex = 39;
+            // 
+            // textTelefoneMask
+            // 
+            this.textTelefoneMask.Location = new System.Drawing.Point(147, 198);
+            this.textTelefoneMask.Name = "textTelefoneMask";
+            this.textTelefoneMask.Size = new System.Drawing.Size(414, 20);
+            this.textTelefoneMask.TabIndex = 40;
+            // 
+            // textCepMask
+            // 
+            this.textCepMask.Location = new System.Drawing.Point(147, 135);
+            this.textCepMask.Name = "textCepMask";
+            this.textCepMask.Size = new System.Drawing.Size(414, 20);
+            this.textCepMask.TabIndex = 41;
+            this.textCepMask.TextChanged += new System.EventHandler(this.textCepMask_TextChanged);
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Location = new System.Drawing.Point(461, 264);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(100, 35);
+            this.btnVoltar.TabIndex = 42;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // CadastroFornecedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(573, 450);
+            this.ClientSize = new System.Drawing.Size(573, 459);
+            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.textCepMask);
+            this.Controls.Add(this.textTelefoneMask);
             this.Controls.Add(this.textEndereco);
             this.Controls.Add(this.EnderecoFornecedor);
             this.Controls.Add(this.btnLimparForn);
             this.Controls.Add(this.btnGravarForn);
             this.Controls.Add(this.textCnpjMask);
-            this.Controls.Add(this.textProdutos);
-            this.Controls.Add(this.textTelefone);
-            this.Controls.Add(this.textCep);
             this.Controls.Add(this.textNomeFornecedor);
-            this.Controls.Add(this.ProdutosFornecedor);
             this.Controls.Add(this.TelefoneFornecedor);
             this.Controls.Add(this.CepFornecedor);
             this.Controls.Add(this.CnpjFornecedor);
             this.Controls.Add(this.NomeFornecedor);
             this.Controls.Add(this.btnPesquisarForn);
-            this.Controls.Add(this.TituloFormForn);
+            this.Controls.Add(this.TituloCadForn);
             this.Name = "CadastroFornecedor";
             this.Text = "CadastroProduto";
             this.Load += new System.EventHandler(this.CadastroFornecedor_Load);
@@ -214,14 +208,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label TituloFormForn;
+        private System.Windows.Forms.Label TituloCadForn;
         private System.Windows.Forms.Button btnPesquisarForn;
         private System.Windows.Forms.MaskedTextBox textCnpjMask;
-        private System.Windows.Forms.TextBox textProdutos;
-        private System.Windows.Forms.TextBox textTelefone;
-        private System.Windows.Forms.TextBox textCep;
         private System.Windows.Forms.TextBox textNomeFornecedor;
-        private System.Windows.Forms.Label ProdutosFornecedor;
         private System.Windows.Forms.Label TelefoneFornecedor;
         private System.Windows.Forms.Label CepFornecedor;
         private System.Windows.Forms.Label CnpjFornecedor;
@@ -230,5 +220,8 @@
         private System.Windows.Forms.Button btnLimparForn;
         private System.Windows.Forms.Label EnderecoFornecedor;
         private System.Windows.Forms.TextBox textEndereco;
+        private System.Windows.Forms.MaskedTextBox textTelefoneMask;
+        private System.Windows.Forms.MaskedTextBox textCepMask;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }
